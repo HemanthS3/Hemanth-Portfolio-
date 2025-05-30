@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="80" y="60" width="352" height="392" rx="20" fill="#4B5563" stroke="#1F2937" stroke-width="10"/>
+  <rect x="110" y="100" width="292" height="80" rx="8" fill="#E5E7EB" stroke="#1F2937" stroke-width="5"/>
+  <rect x="120" y="200" width="60" height="60" rx="8" fill="#F3F4F6" stroke="#1F2937" stroke-width="3"/>
+  <rect x="200" y="200" width="60" height="60" rx="8" fill="#F3F4F6" stroke="#1F2937" stroke-width="3"/>
+  <rect x="280" y="200" width="60" height="60" rx="8" fill="#F3F4F6" stroke="#1F2937" stroke-width="3"/>
+  <rect x="120" y="280" width="60" height="60" rx="8" fill="#F3F4F6" stroke="#1F2937" stroke-width="3"/>
+  <rect x="200" y="280" width="60" height="60" rx="8" fill="#F3F4F6" stroke="#1F2937" stroke-width="3"/>
+  <rect x="280" y="280" width="60" height="60" rx="8" fill="#F3F4F6" stroke="#1F2937" stroke-width="3"/>
+  <rect x="120" y="360" width="60" height="60" rx="8" fill="#F3F4F6" stroke="#1F2937" stroke-width="3"/>
+  <rect x="200" y="360" width="60" height="60" rx="8" fill="#F3F4F6" stroke="#1F2937" stroke-width="3"/>
+  <rect x="280" y="360" width="60" height="60" rx="8" fill="#60A5FA" stroke="#1F2937" stroke-width="3"/>
+  <text x="150" y="240" font-family="Arial" font-size="24" font-weight="bold" fill="#1F2937">7</text>
+  <text x="230" y="240" font-family="Arial" font-size="24" font-weight="bold" fill="#1F2937">8</text>
+  <text x="310" y="240" font-family="Arial" font-size="24" font-weight="bold" fill="#1F2937">9</text>
+  <text x="150" y="320" font-family="Arial" font-size="24" font-weight="bold" fill="#1F2937">4</text>
+  <text x="230" y="320" font-family="Arial" font-size="24" font-weight="bold" fill="#1F2937">5</text>
+  <text x="310" y="320" font-family="Arial" font-size="24" font-weight="bold" fill="#1F2937">6</text>
+  <text x="150" y="400" font-family="Arial" font-size="24" font-weight="bold" fill="#1F2937">1</text>
+  <text x="230" y="400" font-family="Arial" font-size="24" font-weight="bold" fill="#1F2937">2</text>
+  <text x="310" y="400" font-family="Arial" font-size="24" font-weight="bold" fill="#1F2937">=</text>
+</svg>

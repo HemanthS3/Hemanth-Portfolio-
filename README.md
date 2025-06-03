@@ -1,22 +1,94 @@
-# Personal-Portfolio
-Personal Portfolio Website of Hemanth S
-<br>
-  <hr>
+# Hemanth's Portfolio
 
-***Cloning repo in local machine***
-- click on the code button (green colour button on right side)
-- click on the download zip (the last one in the drop-down)
-- extract the zip file and open the folder in vs-code
-- then run below commands in the terminal 
-  
-**To run on local machine**
-```js
-npm i
-npm run dev
-```
+A modern, responsive portfolio website built with React, Tailwind CSS, and Node.js.
 
-**PS: Don't forget to star the repo (top right most button) it motivates me to make more such websites.**
+## Features
 
+- Responsive design that works on all devices
+- Dark/light mode toggle
+- Interactive UI components
+- Contact form with email functionality
+- Project showcase
+- Skills and experience sections
 
+## Tech Stack
 
+### Frontend
+- React
+- Tailwind CSS
+- Vite
+- React Icons
+- Lottie Animations
 
+### Backend
+- Node.js
+- Express
+- Nodemailer
+
+## Setup and Installation
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/HemanthS3/Hemanth-Portfolio.git
+   cd Hemanth-Portfolio
+   ```
+
+2. Install frontend dependencies:
+   ```
+   npm install
+   ```
+
+3. Install backend dependencies:
+   ```
+   cd server
+   npm install
+   ```
+
+4. Configure environment variables:
+   - Create a `.env` file in the root directory for frontend configuration
+   - Create a `.env` file in the server directory for backend configuration
+   - Use the `.env.example` files as templates
+
+## Running the Application
+
+### Development Mode
+
+1. Start the backend server:
+   ```
+   cd server
+   npm start
+   ```
+
+2. In a new terminal, start the frontend development server:
+   ```
+   npm run dev
+   ```
+
+3. Open your browser and navigate to the URL shown in your terminal (typically http://localhost:5173)
+
+### Production Build
+
+1. Build the frontend:
+   ```
+   npm run build
+   ```
+
+2. The build files will be in the `dist` directory and can be served by any static file server
+
+## Contact Form Setup
+
+The contact form requires a running backend server to send emails. See the `FULL_STACK_SETUP.md` file for detailed instructions on setting up the contact form functionality.
+
+## License
+
+[MIT](LICENSE)
+
+## Author
+
+Hemanth S - [GitHub](https://github.com/HemanthS3) | [LinkedIn](https://www.linkedin.com/in/hemanth-s-b8233624a/)

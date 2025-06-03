@@ -2,15 +2,34 @@ const express = require('express');
 const cors = require('cors');
 const nodemailer = require('nodemailer');
 const dotenv = require('dotenv');
+const path = require('path');
 
 // Load environment variables
-dotenv.config();
+// In production (Vercel), environment variables are automatically loaded
+// In development, we need to load them from .env file
+if (process.env.NODE_ENV !== 'production') {
+  dotenv.config();
+}
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors());
+// Configure CORS to allow requests from your frontend domain
+const corsOptions = {
+  origin: process.env.NODE_ENV === 'production' 
+    ? [
+        'https://hemanth-portfolio.vercel.app', 
+        'https://hemanth-portfolio-.vercel.app',
+        /\.vercel\.app$/  // Allow all vercel.app subdomains
+      ] 
+    : 'http://localhost:5173', // Development frontend URL
+  methods: ['GET', 'POST'],
+  credentials: true,
+  optionsSuccessStatus: 204
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
 // Test route

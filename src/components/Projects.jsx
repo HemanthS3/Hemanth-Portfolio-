@@ -44,7 +44,7 @@ const Projects = () => {
             para="Personal portfolio website created with React and Tailwind CSS"
             img={Portfolio}
             link=""
-            github_link=""
+            github_link="https://github.com/HemanthS3/Hemanth-Portfolio-"
             react={
               <Tooltip title="React" arrow>
                 <IconButton>

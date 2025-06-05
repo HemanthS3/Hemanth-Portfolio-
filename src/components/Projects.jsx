@@ -1,4 +1,4 @@
-import Project_prop from "./project_prop";
+import Projectprop from './Projectprop'
 import {
   Portfolio,
   FarmGenie,
@@ -39,7 +39,7 @@ const Projects = () => {
           className="PROJECTS mt-16 grid gap-10 grid-cols-2 max-sm:grid-cols-1"
           data-aos="zoom-out-down"
         >
-          <Project_prop
+          <Projectprop
             title="Portfolio Website"
             para="Personal portfolio website created with React and Tailwind CSS"
             img={Portfolio}
@@ -67,7 +67,7 @@ const Projects = () => {
               </Tooltip>
             }
           />
-          <Project_prop
+          <Projectprop
             title="FarmGenie: AI-Driven Agriculture Platform"
             para="A comprehensive agriculture platform leveraging AI for precision farming with blockchain traceability and real-time collaboration features"
             img={FarmGenie}
@@ -95,7 +95,7 @@ const Projects = () => {
               </Tooltip>
             }
           />
-          <Project_prop
+          <Projectprop
             title="Todo-List Application"
             para="A feature-rich Todo-List application with task management, priority setting, and deadline tracking capabilities"
             img={TodoList}
@@ -123,7 +123,7 @@ const Projects = () => {
               </Tooltip>
             }
           />
-          <Project_prop
+          <Projectprop
             title="Calculator"
             para="A simple yet powerful calculator application with basic arithmetic operations and a clean user interface"
             img={Calculator}

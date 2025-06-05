@@ -4,7 +4,7 @@ import {
   Github,
   Git,
   TailwindCSS,
-  react,
+  ReactImg,
   Python,
   Javascript
 } from "../constants/Constant";
@@ -59,7 +59,7 @@ const Skills = () => {
     // Frontend
     { id: 5, name: "HTML", img: HTML, category: "frontend" },
     { id: 6, name: "CSS", img: CSS, category: "frontend" },
-    { id: 7, name: "React", img: react, category: "frontend" },
+    { id: 7, name: "React", img: ReactImg, category: "frontend" },
     { id: 8, name: "Tailwind CSS", img: TailwindCSS, category: "frontend" },
     
     // Backend

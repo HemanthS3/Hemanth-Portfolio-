@@ -9,7 +9,7 @@ const app = express();
 // Configure CORS
 const corsOptions = {
   origin: [
-    'https://hemanth-portfolio-otwc.vercel.app',
+    '',
     /\.vercel\.app$/  // Allow all vercel.app subdomains
   ],
   methods: ['GET', 'POST'],
